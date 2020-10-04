@@ -1,8 +1,8 @@
-# Personal Portfolio Website ⚡️
+# Personal Portfolio Website ⚡️ [![Netlify Status](https://api.netlify.com/api/v1/badges/c4c28968-ff62-4bab-97ee-28d8ef813557/deploy-status)](https://app.netlify.com/sites/ribeiropdiogo/deploys)
 
 ## Getting Started 🚀
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites 📋
 
@@ -54,10 +54,6 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 ## Contributions
 
 - **Diogo Ribeiro** - [https://github.com/ribeiropdiogo](https://github.com/ribeiropdiogo)
-
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c4c28968-ff62-4bab-97ee-28d8ef813557/deploy-status)](https://app.netlify.com/sites/ribeiropdiogo/deploys)
 
 ## Acknowledgments 🎁
 
