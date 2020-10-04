@@ -65,3 +65,5 @@ _site/
 
 ### Secrets ###
 *.secret
+
+.DS_Store
