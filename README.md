@@ -1,7 +1,5 @@
 # Personal Portfolio Website ⚡️
 
-## A simple and clean Personal Portfolio Website
-
 ## Getting Started 🚀
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -53,7 +51,7 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
 
-## Authors
+## Contributions
 
 - **Diogo Ribeiro** - [https://github.com/ribeiropdiogo](https://github.com/ribeiropdiogo)
 
