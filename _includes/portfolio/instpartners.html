@@ -1,0 +1,32 @@
+<section id="partners">
+    <div class="container ">
+
+        <div class="section-title-container">
+            <h1 class="section-title">Parceiros Institucionais</h1>
+        </div>
+
+        <div class="row">
+            {% for partner in site.data.partners %} {% if partner.pic %} {% if partner.name == "investbraga" %}
+            <div class="col-md-12 wide-logo startup vcenter">
+                <a target="_blank" href="{{ partner.link }}"> {% image 'sponsors/{{partner.pic}}' class:'hcenter img-responsive' %} </a>
+            </div>
+            {% endif %} {% endif %} {% endfor %}
+        </div>
+
+        <div class="row">
+            {% for partner in site.data.partners %} {% if partner.pic %} {% if partner.size == 4 %}
+            <div class="col-md-4 wide-logo vcenter">
+                <a target="_blank" href="{{ partner.link }}"> {% image 'sponsors/{{partner.pic}}' class:'hcenter img-responsive' %} </a>
+            </div>
+            {% endif %} {% endif %} {% endfor %}
+        </div>
+
+        <div class="row">
+            {% for partner in site.data.partners %} {% if partner.pic %} {% if partner.size == 6 %}
+            <div class="col-md-6 wide-logo large vcenter">
+                <a target="_blank" href="{{ partner.link }}"> {% image 'sponsors/{{partner.pic}}' class:'partner-img hcenter img-responsive' %} </a>
+            </div>
+            {% endif %} {% endif %} {% endfor %}
+        </div>
+    </div>
+</section>

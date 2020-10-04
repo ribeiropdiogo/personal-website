@@ -1,99 +1,73 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
+[uminho]: https://uminho.pt
+[anem]: http://anem.pt
+[cesium]: https://www.cesium.di.uminho.pt
+[contributing]: CONTRIBUTING.md
+[code_of_conduct]: CODE_OF_CONDUCT.md
+[license]: LICENSE.txt
+
 <h1 align="center">
-  Gatsby's hello-world starter
+  <a href="http://heartbits.pt" target="_blank">
+    <img src="_assets/images/banner-grey.png" alt="HeartBits" width="350">
+  </a>
+  <br>
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+The HeartBits Hackathon of 2020 is an event organized jointly by the [National
+Association of Medical Students](anem) (ANEM) and [Software Engineer Student
+Group](cesium) from [University of Minho](uminho) (CeSIUM).
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+_A Hackathon HeartBits de 2020 é um evento de organização conjunta da
+[Associação Nacional de Estudantes de Medicina](anem) (ANEM) e do [Centro de
+Estudantes de Informática](cesium) da [Universidade do Minho](uminho)
+(CeSIUM)._
 
-## 🚀 Quick start
+_O evento tem por finalidade promover a interdisciplinaridade e a inovação na
+Saúde através da criação de produtos de MedTech que solucionem problemas atuais
+na área de Saúde. Pretende-se, por conseguinte, incentivar a criatividade e
+trabalho de jovens estudantes nesta área._
 
-1.  **Create a Gatsby site.**
+## :rocket: Getting Started
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+This project is powered by [Jekyll](https://jekyllrb.com/docs/quickstart/), a
+static site generator. These instructions will get you a copy of the project
+up and running on your local machine for development purposes.
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+### :inbox_tray: Prerequisites
 
-1.  **Start developing.**
+* [Ruby](https://www.ruby-lang.org/en/downloads/)
+* [RubyGems](https://rubygems.org/pages/download)
 
-    Navigate into your new site’s directory and start it up.
+Install all dependencies using `bundle install`.
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+### :hammer: Development
 
-1.  **Open the source code and start editing!**
+Starting the development server and navigate to <http://localhost:4000>.
 
-    Your site is now running at `http://localhost:8000`!
+```
+rake serve
+```
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+Clean the project directory.
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+```
+rake clean
+```
 
-## 🧐 What's inside?
+### :package: Deployment
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Bundling the site into static files for production.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+```
+rake build
+```
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+## :handshake: Contributing
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+Please read [CONTRIBUTING][contributing] and [CODE_OF_CONDUCT][code_of_conduct]
+for details on our code of conduct and the process for submitting pull requests
+to us.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+## :memo: License
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+This project is licensed under the MIT License - see [LICENSE][license] for
+details.

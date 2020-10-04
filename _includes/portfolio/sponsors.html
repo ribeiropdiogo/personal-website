@@ -1,0 +1,21 @@
+<section id="sponsors">
+    <div class="container ">
+
+        <div class="section-title-container">
+            <h1 class="section-title">parceiros</h1>
+        </div>
+
+        <div class="row">
+            {% for sponsor in site.data.sponsors %} {% if sponsor.pic %} {% if sponsor.name == 'Msd' %}
+            <div class="col-md-6 wide-logo vcenter">
+                <a target="_blank" href="{{ sponsor.link }}"> {% image 'sponsors/{{sponsor.pic}}' class:'partner-img img-responsive' %} </a>
+            </div>
+            {% else %}
+            <div class="col-md-3 wide-logo vcenter">
+                <a target="_blank" href="{{ sponsor.link }}"> {% image 'sponsors/{{sponsor.pic}}' class:'partner-img img-responsive' %} </a>
+            </div>
+            {% endif %} {% endif %} {% endfor %}
+        </div>
+
+    </div>
+</section>

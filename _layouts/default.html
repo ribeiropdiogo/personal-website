@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include layout/head.html %}
+  </head>
+  <body class="home">
+    {% include layout/preloader.html %}
+    <div class="container">
+      {% include layout/header.html %}
+      <!-- Wrapper -->
+      <div class="wrapper">	
+        {{ content }}
+      </div>
+      {% include layout/footer.html %}
+      {% include layout/lines.html %}
+      {% javascript main %}
+    </div>
+  </body>
+</html>
