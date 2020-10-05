@@ -67,7 +67,7 @@ export const projectsData = [
     info:
       'This project was built as part of my 3rd year Software Engineering course as University of Minho. The main goal of this system is to serve as a daily operations system for any kind of restaurant.',
     info2:
-      'The system allows to track and work with information succh as employees and their schedules, goods, clients and their expenses, most wanted items in the menu, reservations, supply and stock management, and order registration in the mobile app. The backoffice and mobile app were built using C#.',
+      'The system allows to track and work with information such as employees and their schedules, goods, clients and their expenses, most wanted items in the menu, reservations, supply and stock management, and order registration in the mobile app. The backoffice and mobile app were built using C#.',
     url: '',
     repo: 'https://github.com/ribeiropdiogo/LI4',
   },
