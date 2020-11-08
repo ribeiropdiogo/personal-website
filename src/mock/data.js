@@ -32,6 +32,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'heartbits20.png',
+    title: 'HeartBits 2020',
+    info:
+      'This project consists in the Official Website for the 2020 HeartBits edition. This website was built for my student nucleus, CeSIUM, as part of my functions within the organization. This website was built using Jekyll.',
+    info2: '',
+    url: 'https://heartbits.pt/',
+    repo: 'https://github.com/cesium/Heartbits2020',
+  },
+  {
+    id: nanoid(),
     img: 'heartbits.png',
     title: 'HeartBits 2019',
     info:
